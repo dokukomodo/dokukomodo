@@ -8,12 +8,11 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://dokukomodo.github.io',
   baseUrl: '/',
-
-  organizationName: 'dokukomodo',
+  organizationName: 'dokukomodo.github.io',
   projectName: 'dokukomodo',
-
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -46,6 +45,8 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          customCss: ['./src/css/custom.scss'],
+        plugins: ['docusaurus-plugin-sass'],
         },
       }),
     ],

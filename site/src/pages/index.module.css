@@ -3,6 +3,10 @@
  * and scoped locally.
  */
 
+.banner {
+  padding: 4rem;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -20,4 +24,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main {
+  padding: 12px;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.contents {
+  color: #ccc;
 }
