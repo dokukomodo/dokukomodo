@@ -1,0 +1,9 @@
+docusaurus:
+  label: 'Docusaurus'
+  permalink: '/docusaurus'
+  description: 'Dokukomodo Tags'
+
+dokukomodo:
+  label: 'dokukomodo'
+  permalink: '/dokukomodo'
+  description: 'Dokukomodo Tags'
