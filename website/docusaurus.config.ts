@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import FooterWrapper from './src/theme/Footer';
 
 const config: Config = {
   title: 'Dokukomodo',
@@ -64,6 +65,10 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Dokukomodo',
@@ -91,6 +96,12 @@ const config: Config = {
       ],
     },
     footer: {
+      logo: { 
+        alt: 'Dokukomodo',
+        src: 'img/logo1.svg',
+        width: 60,
+        height: 60,
+    },
       style: 'light',
       links: [
         {
