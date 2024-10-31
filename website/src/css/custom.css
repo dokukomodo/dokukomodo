@@ -5,34 +5,29 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #00d0ff;
-  --ifm-color-primary-dark: #00bbe6;
-  --ifm-color-primary-darker: #00b1d9;
-  --ifm-color-primary-darkest: #0092b3;
-  --ifm-color-primary-light: #1ad5ff;
-  --ifm-color-primary-lighter: #26d7ff;
-  --ifm-color-primary-lightest: #4ddeff;
-  --ifm-code-font-size: 100m%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-
 .footer {
   background-color: whitesmoke;
-  color: #0092b3;
+  color: #778899;
   font-size: medium;
   font-family: sans-serif;
-  text-align: center;
 }
 
 .navbar {
   background-color: whitesmoke;
-  color: #0092b3;
+  color: #101010;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2)
 }
 
 .navbar__title {
-  color: black;
+  color: #101010;
   font-family: sans-serif;
   font-size: x-large;
+}
+
+.mytitle {
+  color: aqua;
+}
+
+.tombol {
+  background-color: #101010;
 }

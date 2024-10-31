@@ -4,8 +4,10 @@
  */
 
 .heroBanner {
+  background-color: whitesmoke;
+  color: black;
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
 }
@@ -25,7 +27,7 @@
 }
 
 .buttons {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 }

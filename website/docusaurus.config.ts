@@ -99,8 +99,8 @@ const config: Config = {
       logo: { 
         alt: 'Dokukomodo',
         src: 'img/logo1.svg',
-        width: 60,
-        height: 60,
+        width: 50,
+        height: 50,
     },
       style: 'light',
       links: [
@@ -109,11 +109,11 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs',
+              to: 'docs/intro',
             },
             {
               label: 'Articles',
-              to: '/blog',
+              to: 'blog',
             },
           ],
         },
