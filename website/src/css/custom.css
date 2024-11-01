@@ -6,7 +6,7 @@
 /* You can override the default Infima variables here. */
 
 .footer {
-  background-color: whitesmoke;
+  background-color: lightgray;
   color: #212121;
   font-size: medium;
   font-family: sans-serif;
@@ -14,12 +14,12 @@
 
 .navbar {
   background-color: whitesmoke;
-  color: #101010;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2)
+  color: #212121;
+  box-shadow: none;
 }
 
 .navbar__title {
-  color: #101010;
+  color: #212121;
   font-family: sans-serif;
   font-size: x-large;
 }

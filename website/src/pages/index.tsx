@@ -10,17 +10,10 @@ import styles from './index.module.css';
 
 function HeroBanner() {
   return (
-    <div className={styles.hero} data-theme="dark">
+    <div className={styles.hero}>
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
-        <img
-            alt={translate({message: 'Docusaurus with Keytar'})}
-            className={styles.heroLogo}
-            src={('/img/logo.svg')}
-            width="200"
-            height="200"
-          />
-          <span
+         <span
             className={styles.heroTitleTextHtml}
             dangerouslySetInnerHTML={{
               __html: translate({
@@ -33,37 +26,7 @@ function HeroBanner() {
             }}
           />
         </Heading>
-        <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs">
-            <Translate>Get Started</Translate>
-          </Link>
-          <Link className="button button--info" to="https://docusaurus.new">
-            <Translate>Try a Demo</Translate>
-          </Link>
         </div>
-      </div>
-   </div>
-  );
-}
-
-function TopBanner() {
-  const announcedVersion = useDocusaurusContext().siteConfig.customFields
-    ?.announcedVersion as string;
-  return (
-    <div className={styles.topBanner}>
-      <div className={styles.topBannerTitle}>
-        {'🎉\xa0'}
-        <Link
-          to={`/blog/releases/${announcedVersion}`}
-          className={styles.topBannerTitleText}>
-          <Translate
-            id="homepage.banner.launch.newVersion"
-            values={{new: announcedVersion}}>
-            {'Docusaurus\xa03.5 is\xa0out!️'}
-          </Translate>
-        </Link>
-        {'\xa0🥳'}
-      </div>
       </div>
   );
 }
@@ -76,7 +39,6 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={tagline} description={description}>
       <main>
-      <TopBanner />
       <HeroBanner />
       <HomepageFeatures />
       </main>
