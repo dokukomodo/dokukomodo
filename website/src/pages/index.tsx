@@ -6,7 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import Translate from '@docusaurus/Translate';
+import {Button} from '@mui/material';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -18,11 +18,11 @@ function HomepageHeader() {
         </Heading>
         <p className="subtitle"> {siteConfig.tagline} </p>
         <div className={styles.buttons}>
-        <Link className="button db1" to="docs/intro">
-          <Translate>Documentation</Translate>
+          <Link className="button bui1" to="docs/intro">
+            <Button variant="contained">Document</Button>
           </Link>
-          <Link className="button db1" to="blog">
-          <Translate>Articles</Translate>
+          <Link className="button bui2" to="blog">
+            <Button variant="contained">Articles</Button>
           </Link>
         </div>
       </div>
